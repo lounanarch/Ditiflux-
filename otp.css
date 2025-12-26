@@ -1,0 +1,361 @@
+/* Basic reset and general styles */
+body {
+    font-family: sans-serif; /* Choose a suitable font */
+     margin: 0;
+    padding: 0; 
+    line-height: 1.6;
+    color: #333;
+   /*  height: fit-content; */
+    flex-direction: column;
+   /*  min-height: 100vh; */
+    display: flex;
+   
+    
+   /* Dark gray text color */
+}
+
+.container {
+    max-width: 960px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+
+    flex-grow: 1;
+}
+/* Header styles */
+header {
+    background-color: #ffffff; /* Light gray background */
+    padding: 10px 0;
+    grid-row: 1;
+    flex-grow: 1;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.free{
+    font-family: serif;
+   margin-bottom: -10px;
+    margin-right: 370px;
+   
+
+}
+.Get {
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 360px;
+    padding-top: 0%;
+    margin-top: -10px;
+   
+
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    
+     display: flex; 
+/* justify-content: flex-end;  */
+    padding-left: 600px;
+    text-wrap: nowrap;
+   
+    /* Align items to the right */
+}
+nav li {
+    margin-left: 20px;
+    
+   
+}
+nav ul li a {
+    text-decoration: none;
+    border-bottom: none;
+    color: rgb(53, 13, 50);
+  
+}
+.login {
+    font-weight: bold;
+    margin-left: 40px;
+   
+}
+
+.sig {
+    font-weight: bold;
+    margin-right: 20px;
+   margin-bottom: 30px;
+   padding-right: 10px;
+   padding-left: 10px;
+   height: 30px;
+  
+}
+main {
+   /*  padding: 32px;  */
+    height: 900px; 
+  
+    width: 80%;
+   /*  margin: 0 auto; */
+  
+   
+}
+.otp {
+    height: 120px;
+    width: 120px;
+    margin-left: 550px;
+    transform: translateY(-530px);
+
+}
+.email{
+    color: black;
+    margin-left: 20px;
+    margin-right: 40px;
+    transform: translateY(-500px);
+    align-content: center;
+    text-align: center;
+}
+form button[type="submit"] {
+    background-color: rgb(53, 13, 50); 
+    display: flex;
+    width: 10px;
+    height: 30px;
+     padding: 10px; 
+     margin: 10px 0; 
+    border: 1px solid #ccc;
+     align-items: center;
+    justify-content: center; 
+    margin-left: 100px; 
+ 
+   /*  padding-right: 350px;
+    width: 30px;
+    height: 60px;
+    margin-left: 280px;
+    text-wrap: nowrap; */
+ }
+button {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    margin-left: 390px;
+   transform: translateY(-470px);
+   background-color: rgb(53, 13, 50); 
+    width: 480px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.signup {
+   color: #ffffff;
+  margin-left: 210px;
+ 
+ 
+  
+}
+/* Footer styles */
+footer {
+  
+    border: 50px solid rgb(53, 13, 50);
+      background-color: rgb(53, 13, 50); /* Dark background */
+        color: white;  
+    /*   top: 20px; */
+     
+     /*   height: 430px; */  
+        clip-path: inset(110px 0 0 0);  
+      
+       align-content:  baseline; 
+     margin-top: auto; 
+       bottom: 0;  
+      
+       width: 100%; 
+   
+   
+      left: 0; 
+      right: 0; 
+       
+     
+      /*  justify-content: space-between;   */
+    
+  }
+  
+  
+  footer a {
+      color: white;
+      text-decoration: none;
+  }
+  .footer-columns {
+      display: flex;
+      justify-content: space-between; 
+      transform: translateY(120px);
+      margin-right: 80px;
+      margin-left: -50px;
+      
+      /* Distribute columns evenly */
+  }
+  .footer-columns .column {
+      width: 23%; 
+      /* Adjust as needed */
+  }
+  h3.com{
+      margin-left: 20px;
+      margin-right: 40px;
+  }
+  
+  .footer-columns .company {
+      text-align: left;
+      align-items: left;
+      color: #a7a2a2;
+      margin-right: 90px;
+      padding-left: 20px;
+      text-wrap: nowrap;
+      list-style: none;
+  }
+  h3.quick {
+      margin-right: 30px;
+      padding-right: 40px;
+      margin-left: 20px;
+  }
+  .ndcolumn .link {
+      text-align: left;
+      align-items: left;
+      color: #a7a2a2;
+       margin-right: 120px;
+      padding-left: 20px;
+      text-wrap: nowrap;
+      padding-right: 80px;
+      list-style: none;
+  }
+  h3.resources {
+      margin-right: 30px;
+      padding-right: 40px;
+      margin-left: 20px;
+  }
+  .rdcolumn .res {
+      text-align: left;
+      align-items: left;
+      color: #a7a2a2;
+       margin-right: 120px;
+      padding-left: 20px;
+      text-wrap: nowrap;
+      padding-right: 80px;
+      list-style: none;
+  }
+  h3.more{
+      margin-right: 30px;
+      padding-right: 40px;
+      margin-left: 20px;
+  }
+  
+  .thcolumn .Dut {
+      text-align: left;
+      align-items: left;
+      color: #a7a2a2;
+       margin-right: 120px;
+      padding-left: 20px;
+      text-wrap: nowrap;
+      padding-right: 80px;
+      list-style: none;
+  }
+   .footer-bottom {
+       display: flex; 
+      text-align: center;
+     /*   transform: translateY(-20px);  */
+       margin-right: 50px;
+      padding-right: 100px;
+      align-items: center;
+      margin-left: -40px;
+     
+   }
+  
+  .ful li {
+     display: inline-block;
+     margin-right: 20px;
+  
+      
+  }
+  hr{
+      color: #a19a9a;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      transform: translateY(140px);
+      margin-left: -40px;
+     
+  }
+  .follow {
+      display: inline-block;
+     position: relative;
+     transform: translateY(140px);
+     margin-left: -40px;
+    
+   
+     
+  }
+  .download {
+     
+      display: flex;
+     position: relative;
+      bottom: 32px;
+     transform: translateY(-80px);
+      z-index: 1;
+     
+      padding-top: 10px;
+      margin-left: 550px;
+  
+  }
+  .us{
+      transform: translateY(-9px);
+  }
+  .googleplay {
+      height: 20px;
+      margin-left: 850px;
+      color: #ffffff;
+     transform: translateY(-155px);
+     filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(180deg);
+  }
+  .line2{
+      transform: translateY(-40px);
+     
+  }
+  svg {
+      margin-left: 800px;
+      transform: translateY(-185px);
+  }
+  .follow .fa-facebook-f {
+      margin-left: 110px;
+      transform: translateY(-55px);
+  }
+  .follow .bi-instagram {
+      margin-left: -670px;
+      
+     /*  margin-left: 170px;  */
+    position: absolute;
+     top: 14px;
+  
+  }
+  .follow .bi-twitter {
+      margin-left: -625px;
+      
+      /*  margin-left: 170px;  */
+     position: absolute;
+      top: 14px;
+  }
+  .follow .bi-youtube{
+      margin-left: -590px;
+      
+      /*  margin-left: 170px;  */
+     position: absolute;
+      top: 14px;
+  }
+  .follow .bi-linkedin{
+      margin-left: -550px;
+      
+      /*  margin-left: 170px;  */
+     position: absolute;
+      top: 14px;
+  }
+  
+  
+  
+   
